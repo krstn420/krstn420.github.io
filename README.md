@@ -1,7 +1,7 @@
 # Deckard Cain: a Diablo 2 Resurrected Discord Bot
 Deckard Cain is a Discord Bot that acts as a Diablo 2 Resurrected Database which represents Items in form of embeds.
 
-[Add Deckard Cain](https://discord.com/oauth2/authorize?client_id=878213420342730762&permissions=3072&scope=bot)
+[Add Deckard Cain](https://discord.com/oauth2/authorize?client_id=878213420342730762&permissions=3072&scope=bot) to your discord server.
 
 
 ------------------------------------------------------------------------------
