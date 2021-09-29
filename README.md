@@ -1,51 +1,41 @@
-# krstn420.github.io
-Deckard Cain Discord Bot
+# Deckard Cain
 # Deckard Cain: a Diablo Discord Bot
-[Add Deckard Cain](asdf)
+[Add Deckard Cain](https://discord.com/oauth2/authorize?client_id=878213420342730762&permissions=3072&scope=bot)
+Deckard Cain is a Discord Bot that acts as a Diablo 2 Resurrected Database which represents Items in form of embeds.
 
 ------------------------------------------------------------------------------
-#### Commands
+#### Regular User Commands
 
-Commands | Description | Usage
+Commands | Description | Usage/Examples
 ---------|-------------|--------
-:grift | Get information about greater rifts | :grift \[rank\[to rank]] [dm\|public] \[region] \[ladder] \[soft\|hardcore] \[seasonal\|era] 
-:help | Get basic information on the commands with no arguments or detailed information with a command for an argument | :help \[command]
-:prefix | With an Admin role you can change the prefix of the bot. | :prefix \[current prefix] to \[new prefix]
-:settings | With a D3Mod role you can change the default settings of the :grift command. | :settings \[rank\[to \<rank>]] [dm\|public] \[region] \[ladder] \[soft\|hardcore] \[seasonal\|era] 
-:speak | Listen to Deckard Cains sweet soothing voice. | :speak
+?uni | Get information about the unique item | "?uni Windforce" but you can also use aliases like "?uni soj" or "?uni shako"
+?set | Get information about the set item | "?set Tal Rasha's Guardianship" but you can also use aliases like "?set tal amu" or "?set ik maul"
+?rw | Get information about the rune word | "?rw Enigma" but you can also us aliases like "?rw hoto" or "?rw coh"
+?base | Get information about the base item | "?base Phase Blade" but you can also us aliases like "?base cv" or "?base ba"
+?cube | Get information about how to cube a specific item | "?cube Pul"
+?rune | Get information about the rune | "?rune Zod"
+?gem | Get information about the rune | "?gem Skull" but you can also use aliases like "?gem pskull"
+?fcr | Get information about the FCR caps | "?fcr" will show you the table of all classes "?fcr Paladin" will only show for Paladin
+?fhr | Get information about the FHR caps | "?fhr" will show you the table of all classes "?fhr Necromancer" will only show for Necromancer
+?style | will send you a image of the style for all armor types | "?style"
 
 -------------------------------------------------------------------------------
-#### Arguments
 
-Argument | Description | Possible Arguments
---------- | ------------- | -----------------------
-\[rank \[to rank]] | Type in a number to view details on that greater rift or a number to number to view a range of results. | # \[to #] (50) (50 to 60)
-\[dm\|public] | Receive the information either as a Direct Message or in the channel you sent it. | dm public
-\[region] | Choose the region you wish to view. | us eu kr tw
-\[ladder] | Choose the ladder you wish to view. | barb barbarian cru sader crusader dh demonhunter monk wd witchdoctor wiz wizard nec necro necromancer t2 team2 t3 team3 t4 team4
-\[soft\|hardcore] | Choose to view either the soft or hardcore ladder. | sc soft softcore hc hard hardcore
-\[seasonal\era] | Choose to view either the seasonal or era ladder. | season seasonal ns era nonseasonal
 
--------------------------------------------------------------------------------
+#### Server Admin User Commands
+Commands | Description | Usage/Examples
+---------|-------------|--------
+?dm_only [on/off] | if argument "on" is sent to the bot, it will only answer via Direct Message to the user | "?dm_only on"
+?changeprefix [prefix] | Will set the Prefix to "prefix", all commands can then only be used with the new prefix | "?changeprefix :
+
+
 #### Additional Notes
 
-If you've changed your prefix from the default ":" and forgotten it then all is not lost. You can type "Deckard Cain Prefix" with the exact same capitals to figure out your prefix.
-
-Deckard Cain comes with the default values of ":grift public us barb softcore seasonal 1 to 10". You can also check the default values you currently have by typing :grift view defaults.
-
-All arguments are optional and don't have to be written in any specific order unless specified.
-
--------------------------------------------------------------------------------
-#### Examples
-
-:grift<br />
-:grift 20 to 25<br />
-:grift monk eu 1 to 15<br />
-:grift eu hc team4 300 to 310<br />
-:grift dm kr softcore crusader 500<br />
+If you've changed your prefix from the default "?" and forgotten it, kick and reinvite the bot.
+If dm_only is set to "on" it will react to commands that were recieved by the bot, as confirmation.
+If you change the prefix, whispers will still only be answered via the defautl "?" prefix.
 
 ---------------------------------------------------------------------------------
 ##### Contact
 
-If you want to contact the developer, give feedback, submit a bug, or suggest a feature feel free to add AKghost
-#2187 on Discord. 
+If you want to contact the developer, give feedback, submit a bug, or suggest a feature feel free to add Seksi#0910 on Discord. 
