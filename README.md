@@ -36,7 +36,7 @@ If you've changed your prefix from the default "?" and forgotten it, kick and re
 
 If dm_only is set to "on" it will react to commands that were recieved by the bot, as confirmation.
 
-If you change the prefix, whispers will still only be answered via the defautl "?" prefix.
+If you change the prefix, whispers will still only be answered via the default "?" prefix.
 
 ---------------------------------------------------------------------------------
 ##### Contact
